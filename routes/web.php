@@ -21,4 +21,5 @@ Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/legality', [App\Http\Controllers\HomeController::class, 'legality'])->name('legality');
-Route::get('/conntact', [App\Http\Controllers\HomeController::class, 'conntact'])->name('conntact');
+Route::get('/contact', [App\Http\Controllers\HomeController::class, 'conntact'])->name('contact');
+Route::get('/about', [App\Http\Controllers\HomeController::class, 'about'])->name('about');
