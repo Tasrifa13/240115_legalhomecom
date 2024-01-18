@@ -34,4 +34,8 @@ class HomeController extends Controller
     {
         return view ('conntact');
     }
+    public function about()
+    {
+        return view ('about');
+    }
 }
