@@ -5,12 +5,6 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-<<<<<<< HEAD
-  <title>Legalhomecom</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-=======
   <title>Legal Home</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
@@ -33,7 +27,6 @@
 
 
 
->>>>>>> 1611dd2ff5d0114fa44fd5e958b1a4d1cea6dd53
   <!-- Favicons -->
   <link href="theme/home/assets/img/favicon.png" rel="icon">
   <link href="theme/home/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -48,13 +41,6 @@
   <link href="theme/home/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="theme/home/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="theme/home/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-<<<<<<< HEAD
-  <link rel="stylesheet" href="theme/home/assets/font-awesome-4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-  <!-- Template Main CSS File -->
-  <link href="theme/home/assets/css/style.css" rel="stylesheet">
-=======
   <link href="css/about.css" rel="stylesheet" >
   <link href="css/login.css" rel="stylesheet">
 
@@ -69,28 +55,15 @@
   <link rel="stylesheet" href="css/about.css">
   <link href="css/footer.css" rel="stylesheet">
 
->>>>>>> 1611dd2ff5d0114fa44fd5e958b1a4d1cea6dd53
 </head>
 
 <body>
-
-<<<<<<< HEAD
-  @include('layout.home.header')
-  @yield('content')
-  @include('layout.home.footer')
-=======
-
-  @include('layouts.home.header')
-  @yield('content')
-  @include('layouts.home.footer')
-
   <!-- aos -->
   <script src=https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js></script>
 
   @include('master.layout_home.header')
   @yield('content')
   @include('master.layout_home.footer')
->>>>>>> 1611dd2ff5d0114fa44fd5e958b1a4d1cea6dd53
   <!-- Vendor JS Files -->
   <script src="theme/home/assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="theme/home/assets/vendor/aos/aos.js"></script>
@@ -99,7 +72,6 @@
   <script src="theme/home/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="theme/home/assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="theme/home/assets/vendor/php-email-form/validate.js"></script>
-<<<<<<< HEAD
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
@@ -107,13 +79,6 @@
   <!-- Template Main JS File -->
   <script src="theme/home/assets/js/main.js"></script>
 
-=======
-
-  <!-- Template Main JS File -->
-  <script src="theme/home/assets/js/main.js"></script>
-
-
->>>>>>> 1611dd2ff5d0114fa44fd5e958b1a4d1cea6dd53
 </body>
 
 </html>
