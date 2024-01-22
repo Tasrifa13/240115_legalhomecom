@@ -21,6 +21,9 @@
                 <li class="nav-item">
                   <a href="#" class="nav-link">Register</a>
                 </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Legalitas</a>
+                </li>
                 <li class="nav-item button">
                 <a href="#" class="nav-link button">Login</a>
                 </li>
