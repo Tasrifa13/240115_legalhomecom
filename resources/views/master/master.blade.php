@@ -54,18 +54,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sana:ital,wght@0,100;0,200;0,300;0,400;0,500;1,600;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/about.css">
   <link href="css/footer.css" rel="stylesheet">
+  
 
 </head>
 
 <body>
 
 
-  @include('layouts.home.header')
+  <!-- @include('layouts.home.header')
   @yield('content')
-  @include('layouts.home.footer')
+  @include('layouts.home.footer') -->
 
   <!-- aos -->
-  <script src=https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js></script>
+
 
   @include('master.layout_home.header')
   @yield('content')
@@ -81,6 +82,7 @@
 
   <!-- Template Main JS File -->
   <script src="theme/home/assets/js/main.js"></script>
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js></script>
 
 
 </body>
