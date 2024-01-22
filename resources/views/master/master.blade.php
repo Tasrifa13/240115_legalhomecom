@@ -64,15 +64,12 @@
 </head>
 
 <body>
-<<<<<<< HEAD
-=======
   <!-- aos -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
 
->>>>>>> eb88344c224bb4292d7e428bf4f9f6efbbdfcfef
   @include('master.layout_home.header')
   @yield('content')
   @include('master.layout_home.footer')
