@@ -10,13 +10,7 @@
   
 
 .nav-link:not(.button):hover{
-    background: #00bfff;
-    color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 5px #00bfff,
-    0 0 25px #00bfff,
-    0 0 50px #00bfff,
-    0 0 100px #00bfff;
+    color: #4A8DB7;
 }
 
 #navmenu a {
@@ -34,10 +28,47 @@
 }
 
 .button{
+    transition-property: background-color, padding;
+    transition-duration: .4s;
     background-color: #006d77;
     border-radius: 10px;
     margin-right: 7px;
 }
+
+.button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-right: 7px;
+}
+
+/* styles.css */
+
+.navbar-nav .nav-link {
+  position: relative;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #4A8DB7; 
+  transition: all 0.3s ease;
+  transform-origin: 50% 50%;
+}
+
+.navbar-nav .nav-link:not(.button):hover::after {
+  width: 100%;
+  transform: translateX(-50%);
+  color: #4A8DB7;
+}
+
+
 
 .anjay .nav-item.button a.nav-link {
   color: white !important;
