@@ -64,16 +64,15 @@
 </head>
 
 <body>
-<<<<<<< HEAD
-=======
+
   <!-- aos -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
 
->>>>>>> eb88344c224bb4292d7e428bf4f9f6efbbdfcfef
-  @include('master.layout_home.header')
+
+  @include('layouts.home.header')
   @yield('content')
   @include('master.layout_home.footer')
   <!-- Vendor JS Files -->
@@ -91,17 +90,13 @@
   <!-- Template Main JS File -->
   <script src="theme/home/assets/js/main.js"></script>
 
-<<<<<<< HEAD
-=======
 
   <!-- Template Main JS File -->
   <script src="theme/home/assets/js/main.js"></script>
   <script src=https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js></script>
 
 
->>>>>>> 1611dd2ff5d0114fa44fd5e958b1a4d1cea6dd53
-=======
->>>>>>> eb88344c224bb4292d7e428bf4f9f6efbbdfcfef
+
 </body>
 
 </html>
