@@ -1,4 +1,5 @@
 @extends('master.master')
+
 @section('content')
 <!-- carousel -->
  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -57,6 +58,13 @@
     </div>
     <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
       <img src="assets/img/img1.jpg" class="img-fluid animated" alt="">
+
+
+@section('content')
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+        </div>
     </div>
   </div>
 </div>
