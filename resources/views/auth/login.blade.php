@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-login.blade.php
-=======
+
 @extends('master.master')
 
 @section('content')
@@ -30,13 +28,8 @@ login.blade.php
         </form>
     </div>
 </div>
-<<<<<<< HEAD
-@endsection
-=======
 <br>
 <br>
 <br>
 <br>
 @endsection
->>>>>>> 1611dd2ff5d0114fa44fd5e958b1a4d1cea6dd53
->>>>>>> c3f95c20cdfb9cb4c678ff63e7396ccc1e2f2ac6
