@@ -1,24 +1,35 @@
-		<!-- ======= Header ======= -->
-		<header id="header" class="header container-fluid">
-		    <div class="row">
-		        <div class="col-12 d-flex align-items-center justify-content-between">
-		            <a href="index.html" class="logo d-flex align-items-center">
-		                <img src="assets/img/logo.png" alt="" />
-		                <span>Legal Home</span>
-		            </a>
-
-		            <nav id="navbar" class="navbar navbar-expand-lg">
-		                <ul>
-		                    <li><a class="nav-link scrollto active" href="#">Home</a></li>
-		                    <li><a class="nav-link scrollto" href="#">About</a></li>
-		                    <li><a class="nav-link scrollto" href="#">Contact</a></li>
-		                    <li><a class="nav-link scrollto" href="{{route('login')}}">login</a></li>
-		                    <li><a class="nav-link scrollto" href="#">Register</a></li>
-		                </ul>
-		                <i class="bi bi-list mobile-nav-toggle"></i>
-		            </nav>
-		            <!-- .navbar -->
-		        </div>
-		    </div>
-		</header>
-		<!-- End Header -->
+    <!-- navbar -->
+    <div class="container-fluid bg-dark">
+      <div class="row">
+        <div class="col-6">
+          <nav class="navbar navbar-expand-lg bg-light fixed-top py-3">
+            <a href="index.html" class="navbar-brand" style="margin-left: 30px;">Legal Home</a>
+            <button class="navbar-toggler button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+              <span class="navbar-toggler-icon"></span> 
+            </button> 
+        <div class="anjay collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Register</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Legalitas</a>
+                </li>
+                <li class="nav-item button">
+                <a href="#" class="nav-link button">Login</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    </nav>
+  </div>
