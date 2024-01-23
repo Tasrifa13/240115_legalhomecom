@@ -2,32 +2,41 @@
 @extends('master.master')
 
 @section('content')
-<div class="login">
-    <div class="wrapper">
-        <form action="#">
-        <h2>Login</h2>
-            <div class="input-field">
-            <input type="text" required>
-            <label>Enter your email</label>
-        </div>
-        <div class="input-field">
-            <input type="password" required>
-            <label>Enter your password</label>
-        </div>
-        <div class="forget">
-            <label for="remember">
-            <input type="checkbox" id="remember">
-            <p>Remember me</p>
-            </label>
-            <a href="#">Forgot password?</a>
-        </div>
-        <button type="submit">Log In</button>
-        <div class="register">
-            <p>Don't have an account? <a href="#">Register</a></p>
-        </div>
-        </form>
-    </div>
-</div>
+<br>
+<br>
+   <body>
+      <div class="wrapper">
+         <div class="title">
+            Login Form
+         </div>
+         <form action="#">
+            <div class="field">
+               <input type="text" required>
+               <label>Email Address</label>
+            </div>
+            <div class="field">
+               <input type="password" required>
+               <label>Password</label>
+            </div>
+            <div class="content">
+               <div class="checkbox">
+                  <input type="checkbox" id="remember-me">
+                  <label for="remember-me">Remember me</label>
+               </div>
+               <div class="pass-link">
+                  <a href="#">Forgot password?</a>
+               </div>
+            </div>
+            <div class="field">
+               <input type="submit" value="Login">
+            </div>
+            <div class="signup-link">
+               Not a member? <a href="#">Signup now</a>
+            </div>
+         </form>
+      </div>
+   </body>
+</html>
 <br>
 <br>
 <br>
