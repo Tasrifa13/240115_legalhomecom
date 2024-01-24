@@ -2,7 +2,7 @@
     <div class="container-fluid bg-dark">
       <div class="row">
         <div class="col-6">
-          <nav class="navbar navbar-expand-lg bg-light fixed-top py-3">
+          <nav class="navbar navbar-expand-lg bg-light fixed-top py-3 custom-navbar" style="#">
             <a href="index.html" class="navbar-brand" style="margin-left: 30px;">Legal Home</a>
             <button class="navbar-toggler button" data-bs-toggle="collapse" data-bs-target="#navmenu">
               <span class="navbar-toggler-icon"></span> 
@@ -19,10 +19,10 @@
                   <a href="#" class="nav-link">Contact</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">Register</a>
+                  <a href="#" class="nav-link">Legality</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">Legalitas</a>
+                  <a href="#" class="nav-link">Register</a>
                 </li>
                 <li class="nav-item button">
                 <a href="#" class="nav-link button">Login</a>
