@@ -1,0 +1,75 @@
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #4A8DB7;
+  }
+
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+
+.nav-link:not(.button):hover{
+    color: #4A8DB7;
+}
+
+#navmenu a {
+    color: #4A8DB7;
+  }
+
+#navbar a{
+    color: #4A8DB7;
+}
+
+#navmenu a,
+.navbar-brand {
+  color: #4A8DB7;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button{
+    transition-property: background-color, padding;
+    transition-duration: .4s;
+    background-color: #006d77;
+    border-radius: 10px;
+    margin-right: 7px;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-right: 7px;
+}
+
+/* styles.css */
+
+.navbar-nav .nav-link {
+  position: relative;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #4A8DB7; 
+  transition: all 0.3s ease;
+  transform-origin: 50% 50%;
+}
+
+.navbar-nav .nav-link:not(.button):hover::after {
+  width: 100%;
+  transform: translateX(-50%);
+  color: #4A8DB7;
+}
+
+
+
+.anjay .nav-item.button a.nav-link {
+  color: white !important;
+}
