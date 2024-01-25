@@ -32,6 +32,7 @@ Route::prefix('admin')->group(function () {
 	    Route::get('/create', [App\Http\Controllers\AdminSpace\ArticleController::class, "view_create"])->name("create-article");
 	    Route::get('/update', [App\Http\Controllers\AdminSpace\ArticleController::class, "view_update"])->name("create-article");
 
+	    Route::post('/list', [App\Http\Controllers\AdminSpace\ArticleController::class, "post_list"])->name("list-article-post");
 	    Route::post('/delete', [App\Http\Controllers\AdminSpace\ArticleController::class, "post_delete"])->name("delete-article-post");
 	    Route::post('/create', [App\Http\Controllers\AdminSpace\ArticleController::class, "post_create"])->name("create-article-post");
 	    Route::post('/update', [App\Http\Controllers\AdminSpace\ArticleController::class, "post_update"])->name("update-article-post");
@@ -45,5 +46,15 @@ Route::prefix('admin')->group(function () {
 	    Route::post('/delete', [App\Http\Controllers\AdminSpace\LicenseController::class, "post_delete"])->name("delete-license-post");
 	    Route::post('/create', [App\Http\Controllers\AdminSpace\LicenseController::class, "post_create"])->name("create-license-post");
 	    Route::post('/update', [App\Http\Controllers\AdminSpace\LicenseController::class, "post_update"])->name("update-license-post");
+	});
+
+	Route::prefix('user')->group(function () {
+	    Route::get('/list', [App\Http\Controllers\AdminSpace\UserController::class, "view_list"])->name("user-list");
+	    Route::get('/create', [App\Http\Controllers\AdminSpace\UserController::class, "view_create"])->name("create-user");
+	    Route::get('/update', [App\Http\Controllers\AdminSpace\UserController::class, "view_update"])->name("create-user");
+
+	    Route::post('/delete', [App\Http\Controllers\AdminSpace\UserController::class, "post_delete"])->name("delete-user-post");
+	    Route::post('/create', [App\Http\Controllers\AdminSpace\UserController::class, "post_create"])->name("create-user-post");
+	    Route::post('/update', [App\Http\Controllers\AdminSpace\UserController::class, "post_update"])->name("update-user-post");
 	});
 });
