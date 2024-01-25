@@ -28,12 +28,12 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 <body>
-@include('layout.panel.header_admin')
-@include('layout.panel.sidebar_admin')
+@include('layout_admin.header_admin')
+@include('layout_admin.sidebar_admin')
 <main id="main">
     @yield('content')
 </main>
-@include('layout.panel.footer_admin')
+@include('layout_admin.footer_admin')
 
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
