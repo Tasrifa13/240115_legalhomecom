@@ -10,16 +10,16 @@
         <div class="anjay collapse navbar-collapse" id="navmenu">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a href="#" class="nav-link">Home</a>
+                  <a class="nav-link" href="{{ route('home') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">About</a>
+                  <a class="nav-link" href="{{ route('about') }}">About</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">Contact</a>
+                  <a class="nav-link" href="{{ route('contact') }}">Contact</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">Legality</a>
+                  <a class="nav-link" href="{{ route('legality') }}">Legality</a>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link">Register</a>
