@@ -17,15 +17,15 @@
                         <label>Name</label>
                         </div>
                         <div class="field">
-                        <input type="password" required>
+                        <input type="text" required>
                         <label>Email Address</label>
                         </div>
                         <div class="field">
-                        <input type="text" required>
+                        <input type="password" required>
                         <label>Password</label>
                         </div>
                         <div class="field">
-                        <input type="text" required>
+                        <input type="password" required>
                         <label>Confirm Password</label>
                         </div>
                         <div class="field">
