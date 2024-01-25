@@ -25,13 +25,17 @@
     <link href="css/login.css" rel="stylesheet" />
     <link href="theme/home/assets/css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@600&family=Josefin+Sana:ital,wght@0,100;0,200;0,300;0,400;0,500;1,600;1,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Roboto:wght@600&family=Josefin+Sana:ital,wght@0,100;0,200;0,300;0,400;0,500;1,600;1,700&display=swap" rel="stylesheet" />
     <link href="css/footer.css" rel="stylesheet" />
 
     <!-- Favicons -->
     <link href="theme/home/assets/img/favicon.png" rel="icon" />
     <link href="theme/home/assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
-</head>
+
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+</kepala>
 
 <body>
     <!-- aos -->

@@ -25,6 +25,13 @@
 .navbar-brand {
   color: #4A8DB7;
   font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
+.navbar-brand{
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 25px !important;
+  color: #4A8DB7 !important;
 }
 
 .button{
@@ -42,7 +49,6 @@
     margin-right: 7px;
 }
 
-/* styles.css */
 
 .navbar-nav .nav-link {
   position: relative;
@@ -68,8 +74,6 @@
   color: #4A8DB7;
 }
 
-
-
-.anjay .nav-item.button a.nav-link {
+.anjay .nav-item.button a.nav-link { 
   color: white !important;
 }
