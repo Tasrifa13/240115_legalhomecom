@@ -24,7 +24,7 @@ class HomeController extends Controller
     {
         return view ('home.legalitas');
     }
-    public function conntact()
+    public function contact()
     {
         return view ('home.contact');
     }
