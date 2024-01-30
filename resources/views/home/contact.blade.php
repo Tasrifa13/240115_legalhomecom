@@ -12,9 +12,12 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      margin-bottom: 40px;
     }
     body
     {
+      margin-top: 40px;
+      margin-bottom: 40px;
       height: 100vh;
       display: grid;
       align-items: center;
@@ -34,12 +37,12 @@
     }
     .contact-map iframe
     {
-      width: 100%;
+      width: 90%;
       height: 100%
     }
     .contact-map 
     {
-      width: 100%;
+      width: 90%;
       height: auto;
       flex: 50%;
     }
@@ -75,7 +78,7 @@
       height: 130px;
       color: #000;
       border: 1px solid #bcbcbc;
-      border-radius: 50px;
+      border-radius: 5px;
       outline: none;
       margin-bottom: 20px;
       padding: 15px;
@@ -88,16 +91,17 @@
 
     .contact-from-btn
     {
-      width: 100%;
+      width: 50%;
       border:none;
       outline: none; I
-      border-radius: 50px;
+      border-radius: 5px;
       background: #8e2de2;
       color: #fff;
       text-transform: uppercase;
       padding: 10px 0;
       cursor: pointer;
       font-size: 18px;
+      justify-content: space-around;
     }
   </style>
 </head>
@@ -112,7 +116,8 @@
         <input type="text" placeholder="name" class="contact-from-txt"/>
         <input type="text" placeholder="email" class="contact-from-txt"/>
         <textarea placeholder="message" class= "contact-from-textarea"></textarea>
-        <input type="submit" name="sumbit" class="contact-from-btn"/>
+        <!-- <input type="submit" name="sumbit" class="contact-from-btn"/> -->
+        <div class="text-center"><button type="submit">Kirim</button></div>
       </form>
     </div>
     </div>
