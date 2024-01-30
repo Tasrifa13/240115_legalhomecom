@@ -2,13 +2,11 @@
 @section('content')
     <section class="about">
         <div class="main">
-            <img src="img/img.jpg" alt="">
+            <img src="img/pyt.jpeg" alt="">
             <div class="about-text">
                 <h1>About Us</h1>
-                <h5>Developer<span> & Designer</span></h5>
-                <p>Minecraft adalah sebuah permainan sandbox yang dikembangkan oleh pengembang permainan asal Swedia Mojang Studios. Permainan ini dibuat oleh Markus "Notch" Persson dalam bahasa pemrograman Java. Setelah beberapa versi pengujian pribadi awal, permainan ini pertama kali diterbitkan pada Mei 2009 sebelum sepenuhnya dirilis pada November 2011, kemudian Jens "Jeb" Bergensten mengambil alih pengembangan.</p>
-                <button type="button">Let,s Talk</button>
-
+                <p><span>HOME LEGAL</span> adalah suatu Lembaga nirlaba yang didirikan sejak Tahun 2015 oleh Muhamad Rizki Syafaat, SH, MH sebagai direktur <span>HOME LEGAL</span> di Kota Palu, Provinsi Sulawesi Tengah. Tujuan utama <span>HOME LEGAL</span> adalah memberikan layanan konseling dan bantuan atau solusi terkait masalah perumahan dan agraria yang profesional secara hukum kepada klien. Selain itu, <span>HOME LEGAL</span> juga menyediakan layanan-layanan yang bertujuan untuk memudahkan klien untuk mendapatkan solusi terkait masalah perizinan, agraria, kelistrikan dan bangunan dengan mudah dan cepat.</p>
+                
             </div>
 
         </div>
