@@ -49,7 +49,7 @@
 	                <h2 class="text-dark">Temukan Kepastian Hukum Anda Bersama Home Legal.</h2>
 	                <p class="text-dark">Jelajahi Dunia Hukum dengan LegalHome - Tempat di Mana Setiap Hak Anda Diperjuangkan. Dengan mendaftar sekarang, Anda tidak hanya mendapatkan akses eksklusif ke konsultasi hukum online dan penyusunan dokumen, tetapi juga menjadi bagian dari komunitas hukum modern kami. Bergabunglah hari ini untuk mendapatkan kepastian hukum dengan mudah dan cepat. Daftarkan diri Anda, karena setiap langkah awal menuju keamanan hukum dimulai di sini.</p>
 	                <div class="d-flex justify-content-end justify-content-lg-start">
-	                    <a href="#" class="btn-get-started scrollto">Get Started</a>
+	                    <a href="register" class="btn-get-started scrollto">Get Started</a>
 	                </div>
 	            </div>
 	            <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
