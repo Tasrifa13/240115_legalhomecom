@@ -10,22 +10,22 @@
             <div class="carousel-item active">
                 <img src="assets/img/jaksa3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5>Selamat Datang di Home Legal</h5>
+                    <p>Tempat di mana keamanan hukum bukan hanya hak, tetapi juga ke nyamanan. Bersama kami, kepastian hukum ada di ujung jari Anda. </p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="assets/img/jaksa2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some represent lorem placeholder content for the second slide.</p>
+                    <h5>Akses Cepat, Solusi Terpercaya.</h5>
+                    <p>Home Legal mempersembahkan akses cepat ke konsultasi ahli dan solusi hukum terpercaya.</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="assets/img/jaksa1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h5>Keamanan Hukum Tanpa Batas Waktu</h5>
+                    <p>Jangan biarkan kepastian hukum menjadi hal yang rumit. Dengan Home Legal, keamanan hukum Anda dapat diakses kapan saja dan di mana saja.</p>
                 </div>
             </div>
         </div>
@@ -46,9 +46,9 @@
 	    <div class="container">
 	        <div class="row">
 	            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="200">
-	                <h1 class="text-dark">Better Solutions For Your Business</h1>
-	                <h2 class="text-dark">We are team of talented designers making websites with Bootstrap</h2>
-	                <div class="d-flex justify-content-center justify-content-lg-start">
+	                <h2 class="text-dark">Temukan Kepastian Hukum Anda Bersama Home Legal.</h2>
+	                <p class="text-dark">Jelajahi Dunia Hukum dengan LegalHome - Tempat di Mana Setiap Hak Anda Diperjuangkan. Dengan mendaftar sekarang, Anda tidak hanya mendapatkan akses eksklusif ke konsultasi hukum online dan penyusunan dokumen, tetapi juga menjadi bagian dari komunitas hukum modern kami. Bergabunglah hari ini untuk mendapatkan kepastian hukum dengan mudah dan cepat. Daftarkan diri Anda, karena setiap langkah awal menuju keamanan hukum dimulai di sini.</p>
+	                <div class="d-flex justify-content-end justify-content-lg-start">
 	                    <a href="#" class="btn-get-started scrollto">Get Started</a>
 	                </div>
 	            </div>
