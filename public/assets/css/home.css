@@ -5,7 +5,7 @@
 --------------------------------------------------------------*/
 #hero {
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background: #fff;
     padding-top: 30px;
     margin-bottom: 50px;
@@ -15,7 +15,7 @@
     padding-top: 72px;
   }
   
-  #hero h1 {
+  #hero h2 {
     margin: 0 0 10px 0;
     font-size: 48px;
     font-weight: 700;
@@ -23,25 +23,20 @@
     color: #fff;
   }
   
-  #hero h2 {
-    color: rgba(255, 255, 255, 0.6);
-    margin-bottom: 50px;
-    font-size: 24px;
-  }
-  
   #hero .btn-get-started {
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     display: inline-block;
     padding: 10px 28px 11px 28px;
     border-radius: 50px;
     transition: 0.5s;
     margin: 10px 0 0 0;
     color: #fff;
-    background: #47b2e4;
+    background: #ff7f50;
     text-decoration: none;
+    text-align: right;
   }
   
   #hero .btn-get-started:hover {
@@ -118,7 +113,7 @@
   }
   
   .carousel-caption h5 {
-    font-size: 70px;
+    font-size: 60px;
   }
   
   .carousel-caption p {
