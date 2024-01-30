@@ -1,26 +1,121 @@
 @extends('master.master')
 @section('content')
-  <header>
-    <h1>Contact Us</h1>
-  </header>
-  <section>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
+<!DOCTYPE htnl>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1,user-scalable=no">
+  <title>CSS Reponsive Contact From Google Map</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <style>
+    {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body
+    {
+      height: 100vh;
+      display: grid;
+      align-items: center;
+      bockground: #8e2de2;
+    }
+    .contact-in
+    {
+      width: 80%;
+      height: auto;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px;
+      border-radius: 10px;
+      background: #fff;
+      box-shadow: 0px 0px 10px 0px #666;
+    }
+    .contact-map iframe
+    {
+      width: 100%;
+      height: 100%
+    }
+    .contact-map 
+    {
+      width: 100%;
+      height: auto;
+      flex: 50%;
+    }
+    .contact-from
+    {
+      width: 100%;
+      height: auto;
+      flex: 50%;
+    }
+    .contact-from h2
+    {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .contact-from-txt
+    {
+      width: 100%;
+      height: 40px;
+      color: #000;
+      border: 1px solid #bcbcbc;
+      border-radius: 50px;
+      outline: none;
+      margin-bottom: 20px;
+      padding: 15px;
+    }
+    .contact-from-txt::placehoholder
+    {
+      color: #aaa;
+    }
+    .contact-from-textarea
+    {
+      width: 100%;
+      height: 130px;
+      color: #000;
+      border: 1px solid #bcbcbc;
+      border-radius: 50px;
+      outline: none;
+      margin-bottom: 20px;
+      padding: 15px;
+      font-family: 'poppins',sens-serif;
+    }
+    .contact-from-txt::placehoholder
+    {
+      color: #aaa;
+    }
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="4" required></textarea>
-
-      <button type="submit">Submit</button>
-    </form>
-  </section>
-
-  <section>
-    <div class="col-lg">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.345511354345!2d119.87275468300882!3d-0.8820804999999912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d8bed0676cef417%3A0xd7bb942ffdc70a95!2sRevive%20Distro!5e0!3m2!1sen!2sid!4v1706159480413!5m2!1sen!2sid" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    .contact-from-btn
+    {
+      width: 100%;
+      border:none;
+      outline: none; I
+      border-radius: 50px;
+      background: #8e2de2;
+      color: #fff;
+      text-transform: uppercase;
+      padding: 10px 0;
+      cursor: pointer;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-in">
+    <div class="contact-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.333690872703!2d119.87430417377061!3d-0.893038899098316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d8bedd9e19db635%3A0xbdc233f33d0a62cf!2sNew%20Central%20Stationery%20%26%20Cosmetics!5e0!3m2!1sid!2sid!4v1706494671512!5m2!1sid!2sid" width="200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-</section>
+    <div class="contact-from">
+      <h2>Contact us</h2>
+      <form>
+        <input type="text" placeholder="name" class="contact-from-txt"/>
+        <input type="text" placeholder="email" class="contact-from-txt"/>
+        <textarea placeholder="message" class= "contact-from-textarea"></textarea>
+        <input type="submit" name="sumbit" class="contact-from-btn"/>
+      </form>
+    </div>
+    </div>
+</body>
+<html>
 @endsection
