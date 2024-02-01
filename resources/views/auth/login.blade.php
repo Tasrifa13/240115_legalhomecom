@@ -36,7 +36,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-4"></div>
+        <div class="col-5"></div>
     </div>
 </div>
 <br />

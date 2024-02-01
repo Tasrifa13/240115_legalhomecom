@@ -12,16 +12,15 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
     body
     {
       margin-top: 40px;
       margin-bottom: 40px;
       height: 100vh;
-      display: grid;
       align-items: center;
-      bockground: #8e2de2;
+      bockground-color: #8e2de2;
     }
     .contact-in
     {
@@ -34,6 +33,8 @@
       border-radius: 10px;
       background: #fff;
       box-shadow: 0px 0px 10px 0px #666;
+      margin-bottom: 40px;
+      margin-top: 40px;
     }
     .contact-map iframe
     {
@@ -80,7 +81,7 @@
       border: 1px solid #bcbcbc;
       border-radius: 5px;
       outline: none;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       padding: 15px;
       font-family: 'poppins',sens-serif;
     }
