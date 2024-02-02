@@ -44,7 +44,7 @@
           </div>
 
           <div class="copyright">
-            © Copyright <strong><span>Legal Home</span></strong>. All Rights Reserved
+            © Copyright <strong><span>Home Legal</span></strong>. All Rights Reserved
           </div>
           <div class="credits">
             Designed by <a href="https://bootstrapmade.com/">Techno Celebes</a>
