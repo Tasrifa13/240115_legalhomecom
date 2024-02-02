@@ -39,7 +39,8 @@
             <h4>Follow Us</h4>
             <p>Bergabunglah sekarang untuk merasakan perbedaan. Keamanan hukum yang lebih mudah, lebih cepat, dan lebih terjangkau - hanya di Home Legal.</p>
             <div class="social-links">
-              <a class="instagram" href="#" data-aos="zoom-in" data-aos-delay="200"><i class="fab fa-instagram"></i></a>
+              <a class="instagram" href="https://www.instagram.com/homelegal.palu?igsh=aTZ1aWtkdnpwZGF0" target="blank" data-aos="zoom-in" data-aos-delay="200"><i class="fab fa-instagram"></i></a>
+              <a class="email" href="#" data-aos="zoom-in" data-aos-delay="200"><i class="fas fa-envelope"></i></a>
             </div>
           </div>
 
