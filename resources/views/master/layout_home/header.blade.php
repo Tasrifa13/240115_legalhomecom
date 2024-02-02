@@ -3,7 +3,9 @@
       <div class="row">
         <div class="col-6">
           <nav class="navbar navbar-expand-lg bg-light fixed-top py-3 custom-navbar" style="#">
-            <a href="index.html" class="navbar-brand" style="margin-left: 30px;">Legal Home</a>
+            <a href="{{ route('home') }}" class="navbar-brand" style="margin-left: 30px;">
+              <img src="img/img.png" class="logo-home">
+            </a>
             <button class="navbar-toggler button" data-bs-toggle="collapse" data-bs-target="#navmenu">
               <span class="navbar-toggler-icon"></span> 
             </button> 

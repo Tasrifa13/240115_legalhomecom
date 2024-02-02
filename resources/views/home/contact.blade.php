@@ -112,7 +112,7 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.333690872703!2d119.87430417377061!3d-0.893038899098316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d8bedd9e19db635%3A0xbdc233f33d0a62cf!2sNew%20Central%20Stationery%20%26%20Cosmetics!5e0!3m2!1sid!2sid!4v1706494671512!5m2!1sid!2sid" width="200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <div class="contact-from">
-      <h2>Contact us</h2>
+      <h2><b>Contact us</b></h2>
       <form>
         <input type="text" placeholder="name" class="contact-from-txt"/>
         <input type="text" placeholder="email" class="contact-from-txt"/>

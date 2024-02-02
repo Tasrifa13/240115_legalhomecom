@@ -2,19 +2,19 @@
 # Skills
 --------------------------------------------------------------*/
 <style type="text/css">
-.features {
+.features .feature-box {
   padding: 24px 20px;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
-  margin-top: 80px;
-  margin-bottom: 80;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .features .feature-box h3 {
   font-size: 16px;
   color: #012970;
   font-weight: 700;
-  margin: 0;
+  margin: 40px;
 }
 
 .features .feature-box i {
@@ -32,9 +32,9 @@
   color: #fff;
 }
 
-.features .feture-tabs {
+/*.features .feture-tabs {
   margin-top: 120px;
-}
+}*/
 
 .features .feture-tabs h3 {
   color: #012970;
@@ -133,9 +133,4 @@ ul,li{
   font-weight: bold;
   font-size: 13px;
 }
-img{
-    width: 80%;
-    margin-left: 50px;
-}
-
 </style>
