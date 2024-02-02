@@ -16,10 +16,10 @@
 #navmenu a {
     color: #4A8DB7;
   }
-
+/*
 #navbar a{
     color: #4A8DB7;
-}
+}*/
 
 #navmenu a,
 .navbar-brand {
@@ -32,6 +32,9 @@
   font-family: 'Roboto', sans-serif !important;
   font-size: 25px !important;
   color: #4A8DB7 !important;
+}
+.navbar-brand .logo-home {
+    height: 35px;
 }
 
 .button{
